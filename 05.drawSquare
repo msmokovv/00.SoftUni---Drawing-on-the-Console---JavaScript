@@ -1,0 +1,11 @@
+function triangleOfNumbers(n) {
+    
+    for(var i = 1;i <= n;i++){
+        let stars = "";
+    for(let j = 1;j <= n;j++){
+        stars = stars + "*";
+    }
+    console.log(stars);
+        }
+    }
+   triangleOfNumbers(2)
